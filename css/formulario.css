@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(29, 26, 80);
+    background: linear-gradient(45deg, rgb(29, 26, 80) 0%, rgb(56, 56, 167) 25%, rgba(91,246,174,1) 77%, rgba(0,191,103,1) 100%);
+    font-family: "Figtree", system-ui;
+}
+
+main{
+    background: rgb(29, 26, 80);
+    background: linear-gradient(45deg, rgb(29, 26, 80) 0%, rgb(56, 56, 167) 25%, rgba(91,246,174,1) 77%, rgba(0,191,103,1) 100%);
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    z-index: -1;
+}
+
+#hero-banner{
+    height: 650px;
+}
+
+form{
+    background-color:rgba(127, 255, 212, 0.562);
+    width: 700px;
+    height: 490px;
+    border: 1px solid rgba(0, 0, 255, 0.39);;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px 30px;
+    margin-bottom: 100px;
+}
+
+form h1{
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 100%;
+    height: 35px;
+    font-family: "Figtree", system-ui;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+form textarea{
+    width: 100%;
+    height: 200px;                          
+    font-family: "Figtree", system-ui;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+label input{
+    width: 15px;
+    height: 15px;
+}
+
+button{
+    background-color:rgba(127, 255, 212, 0.562);
+    width: 100px;
+    height: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin-left: 20px;
+}
+
+footer{
+    background: rgb(29, 26, 80);
+    height: 89px;
+}
+
+footer div{
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div a img{
+    height: 50px;
+}
+
+footer div nav a img{
+    height: 35px;
+    margin-left: 20px;
+}
+
+
+
+@media (max-width: 800px){
+
+    footer div{
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px){
+
+    footer div{
+        width: 80%;
+    }
+
+    form{
+        width: 80%;
+        height: 90%;
+    }
+
+    form h1{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    form textarea{
+        height: 300px;
+    }
+
+    button{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 400px){
+
+    form label{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 362px){
+
+    footer div{
+        display: block;
+        padding: 0;
+        margin-right: 0px;
+    }
+
+    footer div a img{
+        height: 35px;
+        margin-left: 30px;
+    }
+
+    footer div nav{
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    footer div nav a img{
+        height: 30px;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,457 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(29, 26, 80);
+    background: linear-gradient(45deg, rgba(29, 26, 80, 0.822) 0%, rgba(56, 56, 167, 0.863) 25%, rgba(91,246,174,1) 77%, rgba(0,191,103,1) );
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 100%;
+    height: 80px;
+}
+
+header div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div img{
+    height: 70px;
+    margin-right: 380px;
+}
+
+header nav{
+    list-style: none;
+    display: flex;
+}
+
+header nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 15px;
+}
+
+header div nav a:hover{
+    color: rgba(59, 59, 187, 0.822)
+}
+
+#hero-banner div{
+    width: 1200px;
+    height: 450px;
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-banner div article h1{
+    font-size: 55px;
+}
+
+#hero-banner div article a{
+    font-size: 24px;
+}
+
+#hero-banner div img{
+    height: 320px;
+}
+
+#hero-banner p{
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#cursos{
+    margin: 150px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cursos article{
+    margin:0px 20px;
+}
+
+#cursos h2{
+    height: 150px;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+#cursos article img{
+    height: 200px;
+    padding: 0px;
+}
+
+#cursos article p{
+    margin-left: 80px;
+    font-size: 22px;
+}
+
+#cursos article a{
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 22px;
+}
+
+#nosotros{
+    color: white;
+    margin: 150px 0;
+}
+
+#nosotros div{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#nosotros div img{
+    height: 370px;
+    padding-top: 50px;
+}
+
+#nosotros div article h2{
+    font-size: 34px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+#nosotros div article p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+footer{
+    background: rgb(29, 26, 80);
+    height: 150px;
+    margin-top: 5px;
+}
+
+footer div{
+    width: 1100px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div p{
+    color: white;
+}
+
+footer div a img{
+    height: 57px;
+}
+
+footer div nav a img{
+    height: 40px;
+    margin-left: 20px;
+}
+
+
+
+
+@media (max-width: 1200px){
+
+    header div img{
+        margin-right: 30px;
+    }
+
+    #hero-banner div{
+        width: 90%;
+    }
+
+    #hero-banner div article h1{
+        font-size: 45px;
+    }
+
+    #hero-banner div article a{
+        font-size: 18px;
+    }
+
+    #hero-banner div img{
+        height: 50%;
+    }
+
+    #nosotros div{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 800px){
+    
+    header div{
+        margin-top: 5px;
+    }
+
+    header div img{
+        height: 65px;
+        margin-right: 150px;
+    }
+
+    header div nav{
+        display: block;
+    }
+
+    header div nav a{
+        font-size: 14px;
+    }
+
+    #hero-banner div article h1{
+        font-size: 30px;
+    }
+
+    #hero-banner div article a{
+        font-size: 18px;
+    }
+
+    #hero-banner div img{
+        height: 40%;
+    }
+
+    #nosotros div article p{
+        font-size: 90%;
+    }
+
+    #nosotros div img{
+        height: 300px;
+    }
+
+    footer div{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px){
+    
+    header div img{
+        margin-right: 120px;
+        height: 40px;    
+    }
+
+    header div nav{
+        font-size: 12px;
+        display: block;
+    }
+
+    #hero-banner div{
+        display: block;
+        height: 350px;
+    }
+
+    #hero-banner div article{
+        text-align: center;
+    }
+
+    #hero-banner div article h1{
+        font-size: 30px;
+        margin: 50px 0 20px 0px;
+    }
+
+    #hero-banner div article a{
+        font-size: 15px;
+    }
+
+    #hero-banner div img{
+        height: 220px;
+        margin: 40px 0 0 60px;
+    }
+
+    #hero-banner p{
+        font-size: 20px;
+    }
+
+    #cursos{
+        margin-left: 140px;
+    }
+
+    #cursos h2{
+        width: 70%;
+    }
+
+    #cursos article{
+        margin: 50px 0;
+    }
+
+    #nosotros div article h2{
+        font-size: 30px;
+    }
+
+    #nosotros div article p{
+        font-size: 80%;
+    }
+
+    #nosotros div img{
+        height: 250px;
+    }
+
+    footer div{
+        width: 95%;
+    }
+
+    footer div a img{
+        height: 50px;
+    }
+
+    footer div p{
+        width: 100px;
+    }    
+
+    footer div nav a img{
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    #hero-banner div img{
+        height: 180px;
+        margin: 40px 0 0 40px;
+    }
+
+    #cursos{
+        margin-left: 100px;
+    }
+
+    #nosotros div{
+        display: block;
+    }
+
+    #nosotros div article h2{
+        margin: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #nosotros div article p{
+        font-size: 80%;
+        text-align: center;
+    }
+
+    #nosotros div img{
+        height: 350px;
+        margin-left: 18%;
+    }
+
+    footer div a img{
+        height: 40px;
+        margin-left: 5px;
+    }
+
+    footer div p{
+        width: 80px;
+    }    
+    
+    footer div nav{
+        height: 40%;
+    }
+
+}
+
+@media (max-width: 400px){
+    
+    header div img{
+        margin-right: 0px;
+        height: 40px;    
+    }
+
+    header div nav{
+        display: block;
+    }
+
+    #hero-banner div{
+        display: block;
+        height: 350px;
+    }
+
+    #hero-banner div article{
+        text-align: center;
+    }
+
+    #hero-banner div article h1{
+        font-size: 30px;
+        margin: 50px 0 20px 0px;
+    }
+
+    #hero-banner div article a{
+        font-size: 15px;
+    }
+
+    #hero-banner div img{
+        height: 160px;
+        margin: 40px 0 0 40px;
+    }
+
+    #hero-banner p{
+        font-size: 20px;
+    }
+
+    #cursos{
+        margin-left: 50px;
+    }
+
+    #cursos h2{
+        width: 80%;
+    }
+
+    #nosotros{
+        margin: 80px 0;
+    }
+
+    #nosotros div img{
+        margin-left: 8%;
+    }
+
+    footer{
+        height: 300px;
+    }
+
+    footer div{
+        display: block;
+    }
+
+    footer div a img{
+        height: 80px;
+        margin-left: 30px;
+    }
+
+    footer div p{
+        width: 350px;
+        margin: 20px 0 20px 20px;
+    }    
+    
+    footer div nav{
+        margin-left: 20px;
+    }
+
+    footer div nav a img{
+        height: 70px;
+        margin: 10px 0 10px 30px;
+    }
+
+}
